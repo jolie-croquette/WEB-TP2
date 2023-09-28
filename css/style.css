@@ -74,6 +74,10 @@ nav {
 
 /* Règles spécifiques aux pages
 ========================================================================== */
-.accueil{
+.carte {
+	height: 100%;
+	width: ;
 	text-align: center;
+	display: block;
+	background-color: blue;
 }

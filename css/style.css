@@ -38,7 +38,7 @@ nav ul {
 }
 
 header {
-	background-color: #877E64;
+	background-color: #D0D0B9 ;
 }
 
 .flex-cotes {
@@ -74,3 +74,6 @@ nav {
 
 /* Règles spécifiques aux pages
 ========================================================================== */
+.accueil{
+	text-align: center;
+}

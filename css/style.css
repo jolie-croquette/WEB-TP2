@@ -6,12 +6,11 @@
 
 body{
 	background-color: aliceblue;
-	margin: 0;
 	font-size: 1.2rem;
 	font-family: 'Noto Serif KR', serif;
 }
 
-h1 {
+h1, h2{
 	font-family: 'Black Ops One', cursive;
 }
 
@@ -34,6 +33,14 @@ a {
 header {
 	color: white;
 	background-color: #1C5922;
+}
+
+.logo {
+	font-size: 2.5rem;
+	margin: 0;
+	font-family: 'Black Ops One', cursive;
+	color: white;
+	text-decoration: none;
 }
 
 .flex-cotes {

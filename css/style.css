@@ -51,7 +51,7 @@ nav li {
 nav a {
 	text-decoration: none;
 	padding: 5px;
-	border: 0px solid black;
+	border: 0px solid #D0D0B9;
 	transition: 300ms;
 }
 

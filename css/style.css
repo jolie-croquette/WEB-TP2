@@ -7,7 +7,7 @@
 body{
 	background-color: aliceblue;
 	margin: 0;
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 	font-family: 'Noto Serif KR', serif;
 }
 
@@ -32,7 +32,8 @@ a {
 /* Header / Navigations / Footer 
 ========================================================================== */
 header {
-	background-color: #D0D0B9 ;
+	color: white;
+	background-color: #1C5922;
 }
 
 .flex-cotes {
@@ -49,24 +50,23 @@ nav li {
 }
 
 nav a {
+	color: white;
+	padding-bottom: 1px;
 	text-decoration: none;
-	padding: 5px;
-	border: 0px solid #D0D0B9;
-	transition: 300ms;
+	border-bottom: 0px solid white;
+	transition: 100ms;
 }
 
 nav a:hover{
-	background-color: lightgray;
-	border-bottom: 5px solid black;
-	border-top: 5px solid black;
-	border-left: 1px solid black;
-	border-right: 1px solid black;
-	border-radius: 10px;
-	transition: 300ms;
+	padding-bottom: 1px;
+	border-bottom: 3px solid white;
+	transition: 150ms;
 }
 
 footer {
-	background-color: gray;
+	color: white;
+	background-color: #221F20;
+	font-size: 0.9rem;
 }
 
 /* Composantes générales (exemples : section, cartes, tableaux, etc.)

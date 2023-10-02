@@ -13,7 +13,6 @@ body{
 
 h1 {
 	font-family: 'Black Ops One', cursive;
-	padding-left: 100px;
 }
 
 a {
@@ -32,11 +31,6 @@ a {
 
 /* Header / Navigations / Footer 
 ========================================================================== */
-
-nav ul {
-	padding-left: 0;
-}
-
 header {
 	background-color: #D0D0B9 ;
 }
@@ -45,6 +39,7 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	margin: 0 100px 0 100px;
 }
 
 nav li {
@@ -55,12 +50,24 @@ nav li {
 
 nav a {
 	text-decoration: none;
+	padding: 5px;
+	border: 0px solid black;
+	transition: 300ms;
 }
 
-nav {
-	padding-right: 100px;
+nav a:hover{
+	background-color: lightgray;
+	border-bottom: 5px solid black;
+	border-top: 5px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-radius: 10px;
+	transition: 300ms;
 }
 
+footer {
+	background-color: gray;
+}
 
 /* Composantes générales (exemples : section, cartes, tableaux, etc.)
 ========================================================================== */
@@ -74,10 +81,3 @@ nav {
 
 /* Règles spécifiques aux pages
 ========================================================================== */
-.carte {
-	height: 100%;
-	width: ;
-	text-align: center;
-	display: block;
-	background-color: blue;
-}

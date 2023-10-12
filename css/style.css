@@ -79,6 +79,7 @@ footer {
 /* Composantes générales (exemples : section, cartes, tableaux, etc.)
 ========================================================================== */
 .banniere {
+	text-align: center;
 	
 }
 

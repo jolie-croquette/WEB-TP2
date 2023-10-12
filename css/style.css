@@ -92,7 +92,7 @@ section{
 
 .carte{
 	border: 1px solid;
-	width: 43.7%;
+	width: auto;
 	margin: 0 auto;
 	text-align: center;
 	padding-bottom: 30px;

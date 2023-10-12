@@ -78,9 +78,17 @@ footer {
 
 /* Composantes générales (exemples : section, cartes, tableaux, etc.)
 ========================================================================== */
-.banniere {
+#sect-banniere {
+	color: white;
 	text-align: center;
-	
+	background-image: url("../img/banniere.jpg");
+	background-size: cover;
+}
+
+#carte {
+	margin-top: 250px;
+	border-radius: 40px ;
+	padding-bottom: 50px;
 }
 
 

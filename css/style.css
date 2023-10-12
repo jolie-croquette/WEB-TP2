@@ -5,7 +5,7 @@
 ========================================================================== */
 
 body{
-	background-color: aliceblue;
+	background-color: #D0D0B9;
 	font-size: 1.2rem;
 	font-family: 'Noto Serif KR', serif;
 }
@@ -116,6 +116,10 @@ section{
 	text-align: center;
 	padding-bottom: 30px;
 	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.sect-presentation video{
+	width: 50%;
 }
 
 .njmb a{

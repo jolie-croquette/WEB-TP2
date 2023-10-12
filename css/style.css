@@ -86,6 +86,25 @@ footer {
 	background-position: center;
 }
 
+#sect-banniere h2 {
+	margin-bottom: 10px;
+
+}
+
+#sect-banniere p {
+	margin-top: 0;
+	margin-bottom: 40px;
+}
+
+#sect-banniere a{
+	background-color: #FFCC01;
+	text-decoration: none;
+	padding: 10px;
+	margin-top: 10px;
+	border-radius: 10px;
+	border: 2px solid black;
+}
+
 section{
 	padding: 70px 0 70px;
 }

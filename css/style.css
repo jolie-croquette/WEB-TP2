@@ -81,14 +81,14 @@ footer {
 #sect-banniere {
 	color: white;
 	text-align: center;
-	background-image: url("../img/banniere.jpg");
-	background-size: cover;
+	background-image: url(../img/banniere.jpg);
+	background-size: contain;
+	background-position:center;
+	background-repeat: no-repeat;
 }
 
-#carte {
-	margin-top: 250px;
-	border-radius: 40px ;
-	padding-bottom: 50px;
+section{
+	padding: 70px 0 70px;
 }
 
 

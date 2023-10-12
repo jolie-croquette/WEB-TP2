@@ -115,12 +115,14 @@ section{
 
 .carte{
 	color:  white;
-	border: 1px solid;
+	border: 2px solid darkgray;
 	width: auto;
 	margin: 0 auto;
 	text-align: center;
 	padding-bottom: 30px;
 	background-color: rgba(135, 126, 100, 0.7);
+	border-radius: 20px;
+	box-shadow: 10px 10px 15px darkgrey;
 }
 
 .flex-container {

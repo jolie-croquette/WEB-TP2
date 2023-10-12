@@ -105,20 +105,33 @@ footer {
 	border: 2px solid black;
 }
 
+#sect-presentation {
+	line-height: 1.5;
+}
+
 section{
 	padding: 70px 0 70px;
 }
 
 .carte{
+	color:  white;
 	border: 1px solid;
 	width: auto;
 	margin: 0 auto;
 	text-align: center;
 	padding-bottom: 30px;
-	background-color: rgba(255, 255, 255, 0.5);
+	background-color: rgba(135, 126, 100, 0.7);
 }
 
-.sect-presentation video{
+.flex-container {
+	display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+video{
 	width: 50%;
 }
 

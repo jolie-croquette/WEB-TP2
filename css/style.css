@@ -122,7 +122,7 @@ section{
 	padding: 70px 0 70px;
 }
 
-.carte{
+.carte-accueil{
 	color:  white;
 	border: 2px solid darkgray;
 	width: auto;
@@ -151,6 +151,25 @@ video{
 .njmb a{
 	display: flex;
 	justify-content: space-around;
+}
+
+.page-actuelle {
+	border-bottom: 3px solid #FFCC01;
+	transition: 300ms;
+}
+
+.carte {
+	display: flex;
+	justify-content: center;
+	background-color: #fff;
+	border: 1px solid;
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.carte ul {
 }
 
 /* Formulaires

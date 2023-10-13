@@ -135,6 +135,8 @@ section{
 
 video{
 	width: 50%;
+	border-radius: 10px;
+	border: 5px solid #1C5922;
 }
 
 .njmb a{

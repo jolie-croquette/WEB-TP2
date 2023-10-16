@@ -153,11 +153,22 @@ video{
 	justify-content: space-around;
 }
 
-
+/*css a ced*/
+.nousjoindreflex{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	list-style: none;
+}
+.btn-nousjoindre{
+	display: inline-block;
+	border: 2px black;
+}
 /* map ced */
 .map{
-	width: 100%;
-	height: 100%;
+display: flex;
+justify-content: center;
 }
 
 /* Formulaires

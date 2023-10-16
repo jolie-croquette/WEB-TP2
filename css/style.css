@@ -142,6 +142,11 @@ section{
     align-items: center;
 }
 
+.page-actuelle {
+	border-bottom: 3px solid #FFCC01;
+	transition: 300ms;
+}
+
 video{
 	width: 50%;
 	border-radius: 10px;

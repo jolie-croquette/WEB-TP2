@@ -167,6 +167,12 @@ video{
 	justify-content: space-around;
 }
 
+td , th {
+	/* for everyone :) */
+	border: 1px solid;
+	padding: 10px 20px;
+}
+
 /*css a ced*/
 .nousjoindreflex{
 	display: flex;
@@ -177,7 +183,10 @@ video{
 }
 .btn-nousjoindre{
 	display: inline-block;
-	border: 2px black;
+	background-color:#2986cc;
+	text-decoration: none;
+	padding: 0 1.5rem;
+	border: 3.5px solid darkblue;
 }
 
 /* map ced */
@@ -185,6 +194,8 @@ video{
 display: flex;
 justify-content: center;
 }
+
+
 
 /* Formulaires
 ========================================================================== */

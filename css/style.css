@@ -196,6 +196,8 @@ td , th {
 	align-items: center;
 	list-style: none;
 	margin:  10rem;
+	padding: 15%;
+	background-image:url(../img/placeholder.gif) ;
 }
 .btn-nousjoindre{
 	display: inline-block;
@@ -210,7 +212,7 @@ td , th {
 display: flex;
 justify-content: center;
 margin-bottom: 7rem;
-margin-top: 15rem;
+margin-top: 10rem;
 /* trouver comment changer la taille*/
 }
 /* css nous joindre*/
@@ -236,6 +238,22 @@ aside {
 	padding: rgb(212, 25, 25) 10px 0px 0px 0px;
 	
 }
+/*css blogue*/
+.articlett{
+	list-style: none;
+
+}
+
+.articlett li{
+	padding: 0 1.5rem;
+border: 2px solid #000000;
+margin:  1rem 20rem 1rem 20rem;
+}
+.articlett img{
+	float: left;
+	/*ajuster l'image*/
+}
+/*css blogue*/
 
 /* Formulaires
 ========================================================================== */

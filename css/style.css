@@ -209,7 +209,25 @@ display: flex;
 justify-content: center;
 }
 
+aside {
+	width: 40%;
+	padding-left: 0.5rem;
+	margin-left: 0.5rem;
+	float: right;
+	box-shadow: inset 5px 0 5px -5px #29627e;
+	font-style: italic;
+	color: #29627e;
+	
+  }
 
+.asidenav{
+
+/* note a ced trouvercomment faire les ligne dans le aside :)*/
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	padding: rgb(212, 25, 25) 10px 0px 0px 0px;
+}
 
 /* Formulaires
 ========================================================================== */

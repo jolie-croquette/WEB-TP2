@@ -162,6 +162,12 @@ video{
 	border: 5px solid #1C5922;
 }
 
+.choix-page {
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+}
+
 .njmb a{
 	display: flex;
 	justify-content: space-around;

@@ -183,7 +183,7 @@ video{
 .choix-page {
 	list-style: none;
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 }
 
 .njmb a{
@@ -331,6 +331,9 @@ aside {
 	display: flex;
 	justify-content: space-around;
 }
+
+
+
 /*css blogue*/
 
 /* Formulaires

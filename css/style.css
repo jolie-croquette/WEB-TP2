@@ -200,7 +200,7 @@ td , th {
 /*css a ced*/
 
 /* css nous joindre*/
-.nousjoindreflex{
+/* .nousjoindreflex{
 	display: flex;
 	flex-wrap: nowrap;
 	justify-content: space-around;
@@ -212,15 +212,15 @@ td , th {
 	background-size: 100%;
 	background-position: center;
 	color: white;
-}
-.btn-nousjoindre{
+} */
+/* .btn-nousjoindre{
 	display: inline-block;
 	background-color:#FFCC01;
 	text-decoration: none;
 	padding: 0 1.5rem;
 	border: 3px solid  #D0D0B9  ;
 	color: white;
-}
+} */
 
 /* map ced */
 .map{
@@ -316,6 +316,25 @@ aside {
 	border: 1px solid black
 }
 
+#sect-banniere-blogue {
+	color: black;
+	text-align: center;
+	background-image: url(../img/banniere.jpg);
+	background-size: 100%;
+	background-position: center;
+}
+
+.nous-joindre{
+	color:  white;
+	border: 2px solid darkgray;
+	width: auto;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 30px;
+	background-color: rgba(135, 126, 100, 0.7);
+	border-radius: 20px;
+	display: flex;
+}
 /*css blogue*/
 
 /* Formulaires

@@ -186,6 +186,21 @@ video{
 	justify-content: center;
 }
 
+.page {
+	margin: 10px;
+	padding: 10px;
+		border: 1px solid black;
+}
+
+.page p {
+	margin: 0;
+}
+
+.choix-page-actuelle {
+	color: #FFCC01;
+	background-color: #1C5922;
+}
+
 .njmb a{
 	display: flex;
 	justify-content: space-around;

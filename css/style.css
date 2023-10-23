@@ -299,9 +299,17 @@ aside {
 }
 
 .carte-blogue {
-	background-color: gray;
+	background-color: #877E64;
+	color: white;
 	padding: 15px;
 	border:1px solid black;
+}
+
+.carte-blogue a {
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	background-color: blue;
 }
 
 .blogue-image {

@@ -284,6 +284,13 @@ aside {
 	float: left;
 	/*ajuster l'image*/
 }
+
+.align-title {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	align-items: center;
+}
 /*css blogue*/
 
 /* Formulaires

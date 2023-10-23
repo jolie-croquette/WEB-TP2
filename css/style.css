@@ -144,6 +144,11 @@ section{
 	justify-content: center;
 }
 
+.sect-carte-blogue {
+	display: flex;
+	margin-bottom: 30px;
+}
+
 .carte {
 	background-color: gray;
 	padding: 15px;
@@ -291,6 +296,16 @@ aside {
 	justify-content: space-between;
 	flex-wrap: nowrap;
 	align-items: center;
+}
+
+.carte-blogue {
+	background-color: gray;
+	padding: 15px;
+	border:1px solid black;
+}
+
+.blogue-image {
+	border: 1px solid black
 }
 
 /*css blogue*/

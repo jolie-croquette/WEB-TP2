@@ -38,6 +38,7 @@ header {
 .logo {
 	font-size: 2.5rem;
 	margin: 0;
+	padding-left: 0;
 	font-family: 'Black Ops One', cursive;
 	color: white;
 	text-decoration: none;
@@ -48,6 +49,10 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	margin: 0 100px 0 100px;
+}
+
+nav ul {
+	padding: 0;;
 }
 
 nav li {
@@ -245,22 +250,24 @@ aside {
 	
 }
 /*css blogue*/
-.navblogue {
+.nav-filter {
 	display: flex;
 	flex-wrap:nowrap;
 	list-style: none;
 	justify-content: flex-end;
 }
 
-.navBlogueBox{
-	padding: 0 1.5rem;
-	border: 2px solid #000000;
-	margin:  0rem 1rem 0rem 0rem;
+.filter-box{
+	padding: 5px 1.5rem;
+	border-left: 2px solid #000000;
 	
 }
 
-#lapage{
-	background-color: gray;
+#filtre-actuelle{
+	color: white;
+	background-color: #877E64;
+	border-left: none;
+	border-radius: 10px 0 0 10px;
 }
 .articlett{
 	list-style: none;

@@ -213,14 +213,13 @@ td , th {
 	background-position: center;
 	color: white;
 } */
-/* .btn-nousjoindre{
+.btn-nousjoindre{
 	display: inline-block;
 	background-color:#FFCC01;
 	text-decoration: none;
 	padding: 0 1.5rem;
-	border: 3px solid  #D0D0B9  ;
-	color: white;
-} */
+	border: 3px solid  #D0D0B9;
+}
 
 /* map ced */
 .map{
@@ -317,23 +316,20 @@ aside {
 }
 
 #sect-banniere-blogue {
-	color: black;
-	text-align: center;
-	background-image: url(../img/banniere.jpg);
-	background-size: 100%;
+	background-image: url(../img/nous-joindres.jpg);
+	padding-top: 340px;
+	padding-bottom: 340px;
+	background-size: cover;
 	background-position: center;
 }
 
 .nous-joindre{
 	color:  white;
 	border: 2px solid darkgray;
-	width: auto;
-	margin: 0 auto;
-	text-align: center;
-	padding-bottom: 30px;
 	background-color: rgba(135, 126, 100, 0.7);
 	border-radius: 20px;
 	display: flex;
+	justify-content: space-around;
 }
 /*css blogue*/
 

@@ -306,7 +306,7 @@ hr {
 	display: flex;
 	flex-wrap: nowrap;
 	justify-content: space-around;
-	padding: rgb(212, 25, 25) 10px 0px 0px 0px;
+	border: 2px solid darkgray;
 	
 }
 /*css blogue*/
@@ -414,6 +414,26 @@ hr {
 
 .bluetxt a{
 	color: blue;
+	text-decoration: none;
+}
+
+.loremclee{
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: start;
+	list-style: none;
+}
+.lorembox{
+	background-color: gray;
+	margin-left: 3px;
+}
+.tableauxb{
+	border-spacing: 0px;
+	text-align: center;
+}
+
+#greybox{
+	background-color: gray;
 }
 /* Formulaires
 ========================================================================== */

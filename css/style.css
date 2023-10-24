@@ -266,7 +266,13 @@ margin-top: 10rem;
 }
 /* css nous joindre*/
 
-aside {
+.aside-recette {
+	float: right;
+	width: 30%;
+	border: 2px solid black;
+}
+
+.aside-blogue {
 	width: 40%;
 	padding-left: 0.5rem;
 	margin-left: 0.5rem;
@@ -276,8 +282,23 @@ aside {
 	color: #29627e;
 	border: 2px;
 	border-radius: 2px;
+}
 
-  }
+.nav-aside-recette {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 15px 0 15px;
+	align-items: center;
+}
+
+hr {
+	width: 99%;
+	margin-top: 0;
+	background-color: black;
+	border: none;
+	border-top: 1px solid black;
+
+}
 
 .asidenav{
 
@@ -382,6 +403,8 @@ aside {
 
 .table-recette {
 	text-align: center;
+	padding: 0;
+	margin-bottom: 30px;
 }
 
 .table-recette th {

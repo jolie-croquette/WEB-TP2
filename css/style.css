@@ -270,6 +270,7 @@ margin-top: 10rem;
 	float: right;
 	width: 30%;
 	border: 2px solid black;
+	margin-bottom: 60%;
 }
 
 .aside-blogue{
@@ -298,6 +299,7 @@ margin-top: 10rem;
 	justify-content: space-between;
 	margin: 0 15px 0 15px;
 	align-items: center;
+	border-bottom: 1px solid black;
 }
 
 hr {
@@ -390,6 +392,10 @@ hr {
 	justify-content: space-around;
 }
 
+.fil-ariane a{
+	text-decoration: none;
+	
+}
 
 
 /*css blogue*/

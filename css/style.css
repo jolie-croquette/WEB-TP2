@@ -394,7 +394,7 @@ hr {
 
 .fil-ariane a{
 	text-decoration: none;
-	
+
 }
 
 
@@ -413,11 +413,14 @@ hr {
 	text-align: center;
 	padding: 0;
 	margin-bottom: 30px;
+	border-collapse: collapse;
+	background-color: balck;
 }
 
 .table-recette th {
 	background-color: gray;
-	color: white;
+	border: 1px solid black;
+	color: white
 }
 
 .bluetxt a{

@@ -272,16 +272,28 @@ margin-top: 10rem;
 	border: 2px solid black;
 }
 
-.aside-blogue {
-	width: 40%;
-	padding-left: 0.5rem;
-	margin-left: 0.5rem;
+.aside-blogue{
+	display: flex;
 	float: right;
-	box-shadow: inset 1px 1px 1px 1px #000000;
-	font-style: italic;
-	color: #29627e;
-	border: 2px;
-	border-radius: 2px;
+	width: 30%;
+	border: 2px solid black;
+	align-self: stretch;
+	align-items: center;
+
+}
+.asidenav{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	border-bottom: 2px solid black;
+	padding-bottom: 10px;
+	list-style: none;
+	
+}
+.asidenav a {
+	background-color: #FFCC01;
+	padding: 5px;
+	border: 2px solid black;
 }
 
 .nav-aside-recette {
@@ -300,15 +312,8 @@ hr {
 
 }
 
-.asidenav{
 
-/* note a ced trouvercomment faire les ligne dans le aside :)*/
-	display: flex;
-	flex-wrap: nowrap;
-	justify-content: space-around;
-	border: 2px solid darkgray;
-	
-}
+
 /*css blogue*/
 .nav-filter {
 	display: flex;

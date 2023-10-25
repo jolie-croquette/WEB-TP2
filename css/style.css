@@ -276,6 +276,7 @@ margin-top: 10rem;
 	float: right;
 	width: 30%;
 	border: 2px solid black;
+	margin-bottom: 60%;
 }
 .asidenav{
 	display: flex;

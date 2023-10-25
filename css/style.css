@@ -273,13 +273,9 @@ margin-top: 10rem;
 }
 
 .aside-blogue{
-	display: flex;
 	float: right;
 	width: 30%;
 	border: 2px solid black;
-	align-self: stretch;
-	align-items: center;
-
 }
 .asidenav{
 	display: flex;

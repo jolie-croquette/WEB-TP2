@@ -297,23 +297,18 @@ aside{
 }
 
 .aside-blogue{
+	
 	border: 2px solid black;
 	height: 50%;
 }
 .asidenav{
 	display: flex;
-	flex-wrap: nowrap;
-	justify-content: space-around;
-	border-bottom: 2px solid black;
-	padding-bottom: 10px;
-	list-style: none;
-	
+	justify-content: space-between;
+	margin: 0 15px 0 15px;
+	align-items: center;
+	border-bottom: 1px solid black;
 }
-.asidenav a {
-	background-color: #FFCC01;
-	padding: 5px;
-	border: 2px solid black;
-}
+
 
 .nav-aside-recette {
 	display: flex;
@@ -366,10 +361,7 @@ hr {
 	margin: 0 0 30px 0;
 }
 
-.articlett img{
-	float: left;
-	/*ajuster l'image*/
-}
+
 
 .align-title {
 	display: flex;
@@ -421,10 +413,7 @@ hr {
 
 /*css blogue*/
 
-.articlenav{
-	list-style: none;
-	display: flex;
-}
+
 
 .blex{
 	color: 	#FFCC01;

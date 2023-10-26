@@ -267,10 +267,6 @@ margin-top: 10rem;
 }
 /* css nous joindre*/
 
-main{
-	padding: 0 30px 50px 0;
-}
-
 aside{
 	padding: 20px;
 	margin-top: 30px;
@@ -282,7 +278,11 @@ aside{
 	justify-content: center;
 }
 
-.col-66{width: 66.6%;}
+.col-66{
+	width: 66.6%;
+	padding: 0 30px 50px 0;
+}
+
 .col-33{width: 33.3%;}
 
 .aside-recette {

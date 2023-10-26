@@ -18,6 +18,9 @@ a {
 	color: black;
 }
 
+ol a{
+	text-decoration: none;
+}
 /* Mise en page (positionnement)
 ========================================================================== */
 

@@ -16,9 +16,6 @@ h1, h2{
 
 a {
 	color: black;
-}
-
-ol a{
 	text-decoration: none;
 }
 /* Mise en page (positionnement)
@@ -388,7 +385,8 @@ hr {
 }
 
 .blogue-image {
-	border: 1px solid black
+	border: 1px solid black;
+	display: block;
 }
 
 #sect-banniere-blogue {

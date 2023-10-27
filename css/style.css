@@ -269,7 +269,6 @@ aside{
 .col-33{width: 33.3%;}
 
 .aside-recette {
-	float: right;
 	border: 2px solid white;
 	height: 50%;
 	background-color: #221F20;
@@ -297,7 +296,6 @@ aside{
 }
 
 .aside-blogue{
-	float: right;
 	border: 2px solid white;
 	height: 50%;
 	background-color: #221F20;

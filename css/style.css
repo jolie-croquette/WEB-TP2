@@ -322,6 +322,18 @@ span {
 	border-bottom: 1px solid white;
 }
 
+.list-recette {
+	padding: 0;
+}
+
+.list-recette li {
+	list-style: none;
+	padding: 10px;
+	background-color: rgb(174, 173, 173);
+	margin: 10px;
+	margin-left: 0;
+}
+
 /*css blogue*/
 .nav-filter {
 	display: flex;

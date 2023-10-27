@@ -10,7 +10,7 @@ body{
 	font-family: 'Noto Serif KR', serif;
 }
 
-h1, h2{
+h1, h2, h3{
 	font-family: 'Black Ops One', cursive;
 }
 
@@ -18,6 +18,7 @@ a {
 	color: black;
 	text-decoration: none;
 }
+
 /* Mise en page (positionnement)
 ========================================================================== */
 
@@ -227,28 +228,11 @@ video{
 	justify-content: space-around;
 }
 
-td , th {
-	/* for everyone :) */
+td, th {
 	border: 1px solid;
 	padding: 10px 20px;
 }
 
-/*css a ced*/
-
-/* css nous joindre*/
-/* .nousjoindreflex{
-	display: flex;
-	flex-wrap: nowrap;
-	justify-content: space-around;
-	align-items: center;
-	list-style: none;
-	margin:  5rem;
-	padding: 15%;
-	background-image:url(../img/banniere.jpg);
-	background-size: 100%;
-	background-position: center;
-	color: white;
-} */
 .btn-nousjoindre{
 	display: inline-block;
 	background-color:#FFCC01;
@@ -257,7 +241,6 @@ td , th {
 	border: 3px solid  #D0D0B9;
 }
 
-/* map ced */
 .map{
 display: flex;
 justify-content: center;
@@ -289,7 +272,6 @@ aside{
 	float: right;
 	border: 2px solid black;
 	height: 50%;
-
 }
 
 .fiche-recette-img {
@@ -297,10 +279,14 @@ aside{
 }
 
 .aside-blogue{
-	
 	border: 2px solid black;
 	height: 50%;
 }
+
+span {
+	color: blue;
+}
+
 .asidenav{
 	display: flex;
 	justify-content: space-between;
@@ -317,17 +303,6 @@ aside{
 	align-items: center;
 	border-bottom: 1px solid black;
 }
-
-hr {
-	width: 99%;
-	margin-top: 0;
-	background-color: black;
-	border: none;
-	border-top: 1px solid black;
-
-}
-
-
 
 /*css blogue*/
 .nav-filter {
@@ -408,6 +383,7 @@ hr {
 
 .fil-ariane a{
 	text-decoration: none;
+	color: blue;
 
 }
 
